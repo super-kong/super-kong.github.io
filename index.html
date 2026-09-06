@@ -3,73 +3,27 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Fanhua Kong - AI application engineer building reliable LLM agents, GraphRAG systems, and multimodal AI infrastructure." />
+  <meta name="description" content="Fanhua Kong - AI application engineer and M.Sc. candidate." />
   <title>Fanhua Kong | AI Application Engineer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="noise"></div>
-  <header class="site-header">
-    <a class="brand" href="#top" aria-label="Fanhua Kong home"><span>FK</span><i></i></a>
-    <nav>
-      <a href="#work">Work</a>
-      <a href="#projects">Projects</a>
-      <a href="#research">Research</a>
-      <a href="#contact">Contact</a>
-    </nav>
-    <a class="header-link" href="mailto:2534867633@qq.com">Let's connect <span>↗</span></a>
-  </header>
-
-  <main id="top">
-    <section class="hero wrap">
-      <div class="hero-copy">
-        <p class="eyebrow"><span class="pulse"></span> AI application engineer · Linyi / China</p>
-        <h1>Building AI that<br /><em>does the work.</em></h1>
-        <p class="lede">I design dependable LLM agents, knowledge-grounded products, and model infrastructure that turn messy information into useful decisions.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#work">Explore my work <span>↓</span></a>
-          <a class="button button-ghost" href="mailto:2534867633@qq.com">Email me <span>↗</span></a>
-        </div>
-        <div class="hero-footnote"><span>Currently</span> AI Pilot Intern at Pfizer · M.Sc. candidate at UCAS</div>
-      </div>
-      <div class="hero-visual">
-        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
-        <div class="portrait-frame"><img src="pixel-portrait.png" alt="Pixel art portrait of Fanhua Kong" /><div class="portrait-label">KONG<br />FANHUA</div></div>
-        <div class="signal-card"><span class="signal-dot"></span><div><strong>Agent systems</strong><small>LangGraph · Neo4j · RAG</small></div><b>01</b></div>
-      </div>
-    </section>
-
-    <section class="ticker" aria-label="Core capabilities"><div class="ticker-track"><span>LLM AGENTS</span><b>✳</b><span>GRAPHRAG</span><b>✳</b><span>MODEL FINETUNING</span><b>✳</b><span>3D VISION</span><b>✳</b><span>LLM AGENTS</span><b>✳</b><span>GRAPHRAG</span><b>✳</b></div></section>
-
-    <section id="work" class="section wrap">
-      <div class="section-heading"><p class="kicker">01 / Experience</p><h2>From prototype<br /><span>to production.</span></h2><p class="section-intro">I care about the last mile: the state machine, the retry path, the schema check, and the interface that makes a complex system feel simple.</p></div>
-      <div class="timeline">
-        <article class="timeline-item featured"><div class="time">06.2026 — now</div><div class="role"><div class="role-top"><h3>AI Pilot Intern</h3><span class="company">Pfizer</span></div><p>Built an enterprise clinical data Q&amp;A assistant with LangGraph, LangChain, Neo4j, and Vox GenAI. The workflow traces a question from intent to graph query to a grounded business answer.</p><div class="tags"><span>LangGraph</span><span>GraphRAG</span><span>Neo4j</span><span>Prompt engineering</span></div></div><div class="index">01</div></article>
-        <article class="timeline-item"><div class="time">12.2025 — 03.2026</div><div class="role"><div class="role-top"><h3>AI Infrastructure Intern</h3><span class="company">Langchao Information</span></div><p>Fine-tuned an NL2SQL model with QLoRA and 4-bit NF4 quantization, training 7B parameters on an A100 within a 24 GB budget. Added schema-aware generation and reranking with BGE-M3 / BM25.</p><div class="tags"><span>Qwen-7B</span><span>QLoRA</span><span>FlashAttention-2</span><span>NL2SQL</span></div></div><div class="index">02</div></article>
-      </div>
-    </section>
-
-    <section id="projects" class="section section-dark">
-      <div class="wrap"><div class="section-heading split"><div><p class="kicker">02 / Selected projects</p><h2>Systems with<br /><span>useful edges.</span></h2></div><p class="section-intro">A few things I have designed end-to-end, from the agent loop to the user-facing surface.</p></div>
-        <div class="project-grid">
-          <article class="project-card project-main"><div class="project-meta"><span>01</span><span>Healthcare AI</span></div><h3>Smart Consultation<br />System</h3><p>A multi-agent medical knowledge graph for department recommendation, medication guidance, symptom extraction, and grounded patient Q&amp;A.</p><div class="metric-row"><div><strong>0.911</strong><small>dialogue score</small></div><div><strong>98.1%</strong><small>intent accuracy</small></div><div><strong>87.5%</strong><small>Hit@3</small></div></div><div class="card-bottom"><span>LangGraph · Neo4j · FAISS</span><a href="#contact" aria-label="Ask about Smart Consultation System">↗</a></div></article>
-          <article class="project-card"><div class="project-meta"><span>02</span><span>Developer tools</span></div><h3>InfraCoder</h3><p>An agent platform for mixed GPU environments: code reading, RAG, workflow templates, GPU health checks, and a CLI + Gradio interface.</p><div class="project-line"><span class="line-dot"></span><span>50-round tool loop with interrupt recovery</span></div><div class="card-bottom"><span>LiteLLM · vLLM · Gradio</span><a href="#contact" aria-label="Ask about InfraCoder">↗</a></div></article>
-          <article class="project-card project-accent"><div class="project-meta"><span>03</span><span>Research system</span></div><h3>Few-shot 3D<br />Reconstruction</h3><p>Feature-enhanced and structure-aware optimization for sparse-view Gaussian Splatting, focused on geometry and scene fidelity.</p><div class="mini-visual"><span></span><span></span><span></span><span></span><span></span></div><div class="card-bottom"><span>3D vision · optimization</span><a href="#research" aria-label="Read research">↗</a></div></article>
-        </div>
-      </div>
-    </section>
-
-    <section id="research" class="section wrap research-section"><div class="research-head"><div><p class="kicker">03 / Research &amp; craft</p><h2>Curious by<br /><span>construction.</span></h2></div><div class="skill-cloud"><span>Python</span><span>C++</span><span>PyTorch</span><span>Transformers</span><span>RAG</span><span>LangChain</span><span>LangGraph</span><span>Qwen</span><span>DeepSeek</span><span>Linux</span></div></div>
-      <div class="research-list"><article><span class="paper-year">2026</span><div><h3>GFeat-GS: Geometrically Aligned and Feature-Enhanced 3D Gaussian Splatting for Few-shot Scene Reconstruction</h3><p>First author · UCAS, second-round review</p></div><span class="paper-arrow">↗</span></article><article><span class="paper-year">2026</span><div><h3>SDGO: Structure-Aware Dynamic Gaussian Optimization for Sparse-View 3D Gaussian Splatting</h3><p>First author · UCAS, first-round review</p></div><span class="paper-arrow">↗</span></article><article><span class="paper-year">2025</span><div><h3>Accuracy Enhancement Method for Non-Rigid Object Detection under Complex Conditions</h3><p>First author · UCAS, in review</p></div><span class="paper-arrow">↗</span></article></div>
-    </section>
-
-    <section class="signal-band"><div class="wrap signal-band-inner"><span class="big-signal">03</span><div><p class="kicker">The through-line</p><h2>Make the hard parts<br /><em>observable.</em></h2></div><p>Reliable AI is not only a better model. It is explicit state, testable prompts, bounded retries, traceable evidence, and a calm interface.</p></div></section>
-
-    <section id="contact" class="contact wrap"><p class="kicker">04 / Say hello</p><h2>Have a hard problem<br /><span>worth solving?</span></h2><a class="contact-link" href="mailto:2534867633@qq.com">2534867633@qq.com <span>↗</span></a><div class="contact-bottom"><span>Fanhua Kong · AI application engineer</span><span>© 2026</span></div></section>
-  </main>
-  <script src="script.js"></script>
+  <div class="page">
+    <header class="resume-header">
+      <div class="identity"><p class="eyebrow">AI APPLICATION ENGINEER</p><h1>Fanhua Kong</h1><p class="summary">Building reliable LLM agents, GraphRAG systems, and model infrastructure for real-world products.</p></div>
+      <div class="portrait"><img src="pixel-portrait.png" alt="Pixel art portrait of Fanhua Kong" /></div>
+      <div class="contact"><a href="mailto:2534867633@qq.com">2534867633@qq.com</a><a href="tel:+8615564289944">+86 155 6428 9944</a><span>Linyi, Shandong, China</span><span>Open to AI engineering opportunities</span></div>
+    </header>
+    <main>
+      <section><h2>Education</h2><div class="entry"><div class="entry-main"><h3>University of Chinese Academy of Sciences</h3><p>M.Sc. in Electronic Information · Recommended admission</p><ul><li>Research: 3D reconstruction, large-model algorithms and applications, object detection</li><li>Coursework: Deep Learning, Matrix Theory, Computer Vision, Intelligent Systems</li></ul></div><time>2024.09 – 2027.06</time></div><div class="entry"><div class="entry-main"><h3>China University of Petroleum (East China)</h3><p>B.Sc. in Intelligent Science and Technology</p><ul><li>GPA 3.96 / 5.0 · Top 5% · Rank 3 / 60</li><li>Coursework: Machine Learning, Data Structures, Algorithms, Image Processing, Visualization</li></ul></div><time>2020.09 – 2024.06</time></div></section>
+      <section><h2>Experience</h2><div class="entry"><div class="entry-main"><div class="title-row"><h3>AI Pilot Intern · Pfizer</h3><span>LangGraph · LangChain · Neo4j · GraphRAG</span></div><ul><li>Built an enterprise clinical data Q&amp;A assistant with Vox GenAI, tracing questions from intent recognition through graph queries to grounded business answers.</li><li>Designed LangGraph StateGraph orchestration for query generation, Neo4j execution, conditional repair, retries, and result synthesis, with up to three controlled retries.</li><li>Added Cypher read-only validation, OAuth token caching, 401 refresh, empty-result repair, schema caching, and token usage tracking; packaged the service as a deployable Streamlit app.</li></ul></div><time>2026.06 – now</time></div><div class="entry"><div class="entry-main"><div class="title-row"><h3>AI Infrastructure Intern · Langchao Information</h3><span>Qwen-7B · QLoRA · NL2SQL · RAG</span></div><ul><li>Fine-tuned a 7B NL2SQL model with QLoRA, 4-bit NF4 quantization, BF16 mixed precision, and FlashAttention-2 on an A100 within 24 GB.</li><li>Built schema-aware generation and SQL self-check rewriting; combined BGE-M3 dense retrieval with BM25 and reranking for stronger context consistency.</li></ul></div><time>2025.12 – 2026.03</time></div></section>
+      <section><h2>Selected Projects</h2><div class="entry"><div class="entry-main"><div class="title-row"><h3>Smart Consultation System · Project Lead</h3><span>LangGraph · Neo4j · FAISS · FastAPI · Vue 3</span></div><p>Multi-agent medical knowledge graph system for department recommendation, medication guidance, symptom extraction, and grounded patient Q&amp;A.</p><ul><li>Designed nine conditional agent routes for intent recognition, medical QA, referral, safety checks, and answer fusion.</li><li>Achieved 0.911 dialogue score, 98.1% intent accuracy, and 87.5% department recommendation Hit@3 on 53 gold-standard cases.</li></ul></div><time>2025.10 – 2026.07</time></div><div class="entry"><div class="entry-main"><div class="title-row"><h3>InfraCoder · Project Lead</h3><span>LiteLLM · vLLM · Gradio · JSON · CLI</span></div><p>Agent platform for heterogeneous GPU servers with code reading, document editing, RAG, workflow templates, GPU health checks, and CLI / web interfaces.</p><ul><li>Implemented a 50-round LLM-to-tool loop with parallel calls, interrupt recovery, safety interception, and multi-user session isolation.</li><li>Added OpenAI-compatible and LiteLLM adapters, streaming chunk handling, token statistics, retries, and GPU telemetry via nvidia-smi.</li></ul></div><time>2025.08 – 2026.10</time></div></section>
+      <section class="two-col"><div><h2>Honors &amp; Skills</h2><ul class="compact"><li>National Second Prize, China Collegiate Computer Design Competition</li><li>Master's First-Class Scholarship, Silver Scholarship</li><li>Software Design Engineer certification · CET-6</li><li><b>Languages:</b> Python, C++, Git, Linux</li><li><b>ML:</b> PyTorch, Transformers, LoRA / QLoRA, RAG, LLM fine-tuning</li><li><b>Models:</b> Qwen, DeepSeek, vLLM, BGE-M3, BM25</li></ul></div><div><h2>Research</h2><ol class="papers"><li><b>GFeat-GS:</b> Geometrically Aligned and Feature-Enhanced 3D Gaussian Splatting for Few-shot Scene Reconstruction. <span>2026 · First author, UCAS second-round review</span></li><li><b>SDGO:</b> Structure-Aware Dynamic Gaussian Optimization for Sparse-View 3D Gaussian Splatting. <span>2026 · First author, UCAS first-round review</span></li><li>Accuracy Enhancement Method for Non-Rigid Object Detection under Complex Conditions. <span>2025 · First author, UCAS in review</span></li></ol></div></section>
+    </main>
+    <footer><span>Fanhua Kong · AI Application Engineer</span><a href="mailto:2534867633@qq.com">Get in touch ↗</a><span>© 2026</span></footer>
+  </div>
 </body>
 </html>
